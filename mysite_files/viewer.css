@@ -63,6 +63,8 @@ html.device-mobile-optimized {
 body.device-mobile-optimized {
   overflow-x: hidden;
   overflow-y: scroll; }
+  body.device-mobile-optimized .POPUPS_ROOT {
+    width: 100%; }
   body.device-mobile-optimized #SITE_CONTAINER {
     width: 320px;
     overflow-x: visible;
@@ -193,7 +195,6 @@ letter.space {
 .flex_display {
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex; }
 
 .flex_vbox {
