@@ -121,6 +121,27 @@ body.fullScreenMode-scrollable.device-mobile-optimized {
     /* page */
     margin: 0 auto; }
 
+.fullScreenOverlay {
+  z-index: 1000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center; }
+  .fullScreenOverlay > .fullScreenOverlayContent {
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0; }
+
 body[contenteditable] {
   overflow-x: auto;
   overflow-y: auto; }
